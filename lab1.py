@@ -22,7 +22,7 @@ def factorial(n):
 #I made the function recursive because for the current scenario using recursion to make a function requires less coding and is easier to develop
 
 #3rd ans
-def fibonacciSeries(n):
+def Fibonacci(n):
     if n <= 0:
         return "Error.number should not be negative or 0"
 
@@ -37,3 +37,4 @@ def fibonacciSeries(n):
         for n in range(2, n):
             a, b = b, a + b
         return b
+#used implementation method for the following function
